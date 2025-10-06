@@ -21,7 +21,7 @@ class Spiller:
 
 
 class Game:
-    players: List[Spiller]
+    spillere: List[Spiller]
 
     def __init__(self):
         self.spillere = []
